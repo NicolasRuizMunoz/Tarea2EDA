@@ -6,7 +6,7 @@
 #ifndef LINKEDLIST_HPP_
 #define LINKEDLIST_HPP_
 
-#include "lLists/node.hpp"
+#include "node.hpp"
 
 namespace eda {
 

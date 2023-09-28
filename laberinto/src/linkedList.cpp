@@ -3,7 +3,7 @@
  *
  */
 
-#include "include/linkedList.hpp"
+#include "../include/linkedList.hpp"
 #include <iostream>
 
 namespace eda {

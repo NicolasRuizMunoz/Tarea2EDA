@@ -5,7 +5,7 @@
  *      Author: jsaavedr
  */
 
-#include "lLists/stack.hpp"
+#include "../include/stack.hpp"
 #include <iostream>
 
 namespace eda {

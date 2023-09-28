@@ -1,4 +1,4 @@
-#include "maze.hpp"
+#include "../include/maze.hpp"
 #include <cstdlib>
 #include <ctime>
 #include <iostream>

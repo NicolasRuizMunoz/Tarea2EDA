@@ -8,7 +8,7 @@
 #ifndef STACK_HPP_
 #define STACK_HPP_
 
-#include "lLists/node.hpp"
+#include "node.hpp"
 
 namespace eda {
 
