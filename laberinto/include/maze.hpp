@@ -27,6 +27,8 @@ namespace maze {
 		void reset_maze(int h, int w);
 		bool inRange(int i, int j);
 		void print();
+		void solve_pila(int,int,int,int);
+		void solve_cola(int,int,int,int);
 
 	};
 }
