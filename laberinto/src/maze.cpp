@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
+//#include "../stack.hpp"
 
 namespace maze{
 
