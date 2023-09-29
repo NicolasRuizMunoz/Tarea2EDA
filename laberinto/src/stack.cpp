@@ -11,12 +11,17 @@
 namespace eda {
 
 Stack::Stack():head(nullptr) {
-	// TODO Auto-generated constructor stub
+	// TODO Auto-generated constructor stub xd
 
 }
 
 void Stack::push(int val){
 	Node* node = new Node(val);
+	push(node);
+}
+
+void Stack::push(Pos pos1){
+	Node* node = new Node(pos1);
 	push(node);
 }
 

@@ -4,6 +4,9 @@
 CMakeFiles/test.dir/src/maze.cpp.o: ../src/maze.cpp \
   /usr/include/stdc-predef.h \
   ../include/maze.hpp \
+  ../include/queue.hpp \
+  ../include/node.hpp \
+  ../include/linkedList.hpp \
   /usr/include/c++/11/cstdlib \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -358,7 +361,10 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../include/maze.hpp
+  ../include/maze.hpp \
+  ../include/queue.hpp \
+  ../include/node.hpp \
+  ../include/linkedList.hpp
 
 
 ../test/test.cpp:
@@ -437,19 +443,23 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 
 /usr/include/c++/11/string:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/usr/include/c++/11/bits/locale_classes.h:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+../include/queue.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/c++/11/ext/new_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -470,10 +480,6 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/c++/11/cctype:
 
@@ -497,9 +503,9 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 
 /usr/include/c++/11/iosfwd:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/features-time64.h:
 
@@ -507,23 +513,33 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/time.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
-/usr/include/c++/11/bits/basic_string.h:
+/usr/include/c++/11/ext/new_allocator.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+../include/linkedList.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/features.h:
 
 /usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
@@ -533,23 +549,31 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 
 /usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
 /usr/include/c++/11/ostream:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 ../include/maze.hpp:
 
 /usr/include/c++/11/bits/exception_defines.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+../include/node.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/time.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -563,17 +587,9 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 
 /usr/include/c++/11/bits/localefwd.h:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
 ../src/maze.cpp:
 
 /usr/include/c++/11/debug/debug.h:
-
-/usr/include/c++/11/bits/postypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/11/streambuf:
 
@@ -583,21 +599,27 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
 /usr/include/c++/11/ios:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/usr/include/x86_64-linux-gnu/bits/timex.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/11/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
 /usr/include/c++/11/backward/binders.h:
 
@@ -655,10 +677,6 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 
 /usr/include/c++/11/bits/char_traits.h:
 
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/c++/11/cwchar:
@@ -701,10 +719,6 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/locale.h:
-
 /usr/include/c++/11/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
@@ -718,5 +732,3 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/c++/11/bits/locale_classes.h:

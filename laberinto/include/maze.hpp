@@ -1,6 +1,7 @@
 /**
  * Classe Maze
  */
+#include "queue.hpp"
 
 namespace maze {
 	typedef unsigned char uchar;
