@@ -9,6 +9,7 @@
 #define QUEUE_HPP_
 
 #include "node.hpp"
+#include "linkedList.hpp"
 
 namespace eda {
 
@@ -19,12 +20,13 @@ private:
 public:
 	Queue();
 	void push(int val);
+	void push(Pos pos);
 	void push(Node* node);
 	void pop();
 	Node* top();
 	bool isEmpty();
 	void clear();
-	virtual ~Queue();
+	//virtual ~Queue();
 };
 
 } /* namespace eda */

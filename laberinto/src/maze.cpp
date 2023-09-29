@@ -4,6 +4,7 @@
 #include <iostream>
 //#include "../stack.hpp"
 
+
 namespace maze{
 
 const unsigned char Maze::WALL  = '@';
@@ -131,12 +132,14 @@ void Maze::print(){
 	std::cout << std::endl;
 }
 
-	void Maze::solve_cola(int x1, int y1, int x2, int y2){
-		
-	}
+void Maze::solve_cola(int x1, int y1, int x2, int y2){
+	//eda::Queue solver;
+	//solver.push(x1);
 
-	void Maze::solve_pila(int x1, int y1, int x2, int y2){
+}
 
-	}
+void Maze::solve_pila(int x1, int y1, int x2, int y2){
+
+}
 
 }

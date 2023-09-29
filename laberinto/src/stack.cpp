@@ -20,6 +20,11 @@ void Stack::push(int val){
 	push(node);
 }
 
+void Stack::push(Pos pos1){
+	Node* node = new Node(pos1);
+	push(node);
+}
+
 void Stack::push(Node* node){
 	node->setNext(head);
 	head = node;
