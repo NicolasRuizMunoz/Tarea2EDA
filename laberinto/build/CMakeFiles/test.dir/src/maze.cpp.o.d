@@ -1,7 +1,10 @@
 CMakeFiles/test.dir/src/maze.cpp.o: \
  /home/edauandes/Desktop/Tarea2EDA/laberinto/src/maze.cpp \
  /usr/include/stdc-predef.h \
- /home/edauandes/Desktop/Tarea2EDA/laberinto/include/maze.hpp \
+ /home/edauandes/Desktop/Tarea2EDA/laberinto/src/../include/maze.hpp \
+ /home/edauandes/Desktop/Tarea2EDA/laberinto/src/../include/queue.hpp \
+ /home/edauandes/Desktop/Tarea2EDA/laberinto/src/../include/node.hpp \
+ /home/edauandes/Desktop/Tarea2EDA/laberinto/src/../include/linkedList.hpp \
  /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
