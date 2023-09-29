@@ -11,7 +11,7 @@
 namespace eda {
 
 Stack::Stack():head(nullptr) {
-	// TODO Auto-generated constructor stub
+	// TODO Auto-generated constructor stub xd
 
 }
 
