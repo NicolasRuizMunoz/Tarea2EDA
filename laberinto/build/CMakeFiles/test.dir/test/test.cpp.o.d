@@ -147,4 +147,5 @@ CMakeFiles/test.dir/test/test.cpp.o: \
  /home/edauandes/Desktop/Tarea2EDA/laberinto/test/../include/maze.hpp \
  /home/edauandes/Desktop/Tarea2EDA/laberinto/test/../include/queue.hpp \
  /home/edauandes/Desktop/Tarea2EDA/laberinto/test/../include/node.hpp \
+ /home/edauandes/Desktop/Tarea2EDA/laberinto/test/../include/pos.hpp \
  /home/edauandes/Desktop/Tarea2EDA/laberinto/test/../include/linkedList.hpp

@@ -19,10 +19,6 @@ void Queue::push(int val){
 	push(node);
 }
 
-void Queue::push(Pos pos1){
-	Node* node = new Node(pos1);
-	push(node);
-}
 
 void Queue::push(Node* node){
 	if (tail == nullptr){
