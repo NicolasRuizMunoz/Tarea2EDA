@@ -133,8 +133,8 @@ void Maze::print(){
 }
 
 void Maze::solve_cola(int x1, int y1, int x2, int y2){
-	//eda::Queue solver;
-	//solver.push(x1);
+	eda::Queue solver;
+	solver.push(x1);
 
 }
 

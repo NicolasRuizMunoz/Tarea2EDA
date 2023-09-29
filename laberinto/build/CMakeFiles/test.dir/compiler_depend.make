@@ -364,6 +364,7 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
   ../include/maze.hpp \
   ../include/queue.hpp \
   ../include/node.hpp \
+  ../include/pos.hpp \
   ../include/linkedList.hpp
 
 
@@ -396,6 +397,8 @@ CMakeFiles/test.dir/test/test.cpp.o: ../test/test.cpp \
 /usr/include/c++/11/system_error:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
+
+../include/pos.hpp:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 

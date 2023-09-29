@@ -8,22 +8,15 @@
 namespace eda {
 
 
-Node::Node(): data(-1), ptrNext(nullptr) {
-}
-
-Node::Node(Pos pos1){
-	pos = pos1;
-	ptrNext = nullptr;
-}
-
-Node::Node(int val, Node* next): data(val), ptrNext(next) {
-
+Node::Node(): data(-1), ptrNext(nullptr){
 }
 
 
-void Node::setData(Pos pos1){
-	pos = pos1;
+
+Node::Node(int val, Node* next): data(val), ptrNext(next){
+
 }
+
 
 void Node::setData(int _data){
 	data = _data;
@@ -35,10 +28,6 @@ void Node::setNext(Node* next){
 
 int Node::getData(){
 	return data;
-}
-
-Pos Node::getPos(){
-	return;
 }
 
 Node* Node::getNext(){

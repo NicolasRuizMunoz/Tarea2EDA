@@ -20,7 +20,6 @@ private:
 public:
 	Queue();
 	void push(int val);
-	void push(Pos pos);
 	void push(Node* node);
 	void pop();
 	Node* top();

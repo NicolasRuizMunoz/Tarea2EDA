@@ -18,7 +18,6 @@ private:
 public:
 	Stack();
 	void push(int val);
-	void push(Pos);
 	void push(Node* node);
 	void pop();
 	Node* top();
