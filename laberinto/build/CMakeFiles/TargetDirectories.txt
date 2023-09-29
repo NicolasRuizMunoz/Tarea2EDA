@@ -1,0 +1,3 @@
+/home/edauandes/Desktop/Tarea2EDA/laberinto/build/CMakeFiles/test.dir
+/home/edauandes/Desktop/Tarea2EDA/laberinto/build/CMakeFiles/edit_cache.dir
+/home/edauandes/Desktop/Tarea2EDA/laberinto/build/CMakeFiles/rebuild_cache.dir

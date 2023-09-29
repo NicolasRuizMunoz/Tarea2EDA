@@ -2,7 +2,7 @@
  * nodo.cpp
  */
 
-#include "lLists/node.hpp"
+#include "../include/node.hpp"
 #include <iostream>
 
 namespace eda {

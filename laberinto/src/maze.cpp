@@ -1,4 +1,4 @@
-#include "maze.hpp"
+#include "../include/maze.hpp"
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
@@ -130,5 +130,13 @@ void Maze::print(){
 	std::cout << " ";
 	std::cout << std::endl;
 }
+
+	void Maze::solve_cola(int x1, int y1, int x2, int y2){
+		
+	}
+
+	void Maze::solve_pila(int x1, int y1, int x2, int y2){
+
+	}
 
 }
